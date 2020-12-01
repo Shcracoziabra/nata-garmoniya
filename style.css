@@ -174,11 +174,11 @@ header {
 	@keyframes pulse {
 		
 		20% {
-			box-shadow: 0 0 10px rgba(255, 255, 255, 1);
+			box-shadow: 0 0 10px  10px rgba(255, 255, 255, 1);
 		}
 
 		80% {
-			box-shadow: 0 0 10px rgba (66, 4, 0, 1);
+			box-shadow: 0 0 10px 10px rgba (66, 4, 0, 1);
 		}
 	}
 	.aboutme__card:hover {
