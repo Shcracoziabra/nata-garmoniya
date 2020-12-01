@@ -39,7 +39,7 @@ header {
 				 0 0 50px white;
 }
 
-@media screen and (max-width: 900px) {
+@media all and (max-width: 900px) {
 
 	.header__name {
 	line-height: 40px;
@@ -151,7 +151,7 @@ header {
 	padding-top: 80px;
 }
 
-@media screen and (max-width: 767px) {
+@media all and (max-width: 767px) {
 	.aboutme__card {
 		position: relative;
 		display: flex;
@@ -168,11 +168,26 @@ header {
 		height: 280px;
 		max-width: 280px;
 		transition: 0.3s ease-in-out;
+		animation: pulse 5s ease-in-out infinite;
+	}
+
+	@keyframes pulse {
+		
+		20% {
+			box-shadow: 0 0 10px #ff4a4a,
+					    0 0 30px #ff4a4a,
+					    0 0 50px #ff4a4a;
+		}
+
+		80% {
+			box-shadow: 0 0 10px transparent;
+		}
 	}
 	.aboutme__card:hover {
 		background: rgba(255, 255, 255, 0.5);
 		height: auto;
 		box-shadow: 0px 8px 5px 0px rgba(66, 4, 0, 0.5);
+		animation-play-state: paused;
 	}
 
 	.aboutme__photo {
@@ -396,7 +411,7 @@ footer {
 	background-color: rgba(197, 18, 18, 0.9);
 }
 
-@media screen and (min-width: 768px) {
+@media all and (min-width: 768px) {
 
 	body {
 		background-repeat: no-repeat;
@@ -547,7 +562,7 @@ footer {
 	}
 
 }
-@media screen and (max-width: 600px)
+@media all and (max-width: 600px)
 {
 	.welcome {
 	position: relative;
@@ -566,7 +581,7 @@ footer {
 }
 
 
-@media screen and (min-width: 900px)
+@media all and (min-width: 900px)
 {
 	.header__name {
 	line-height: 40px;
