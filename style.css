@@ -174,7 +174,7 @@ header {
 	@keyframes pulse {
 		
 		20% {
-			box-shadow: 0 0 50px #fff;
+			box-shadow: 0 0 50px rgb(66, 4, 0);
 		}
 
 		80% {
