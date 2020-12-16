@@ -172,10 +172,6 @@ header {
 	}
 
 	@keyframes pulse {
-		
-		20% {
-			box-shadow: 0 0 10px  10px rgba(255, 255, 255, 0.6);
-		}
 
 		80% {
 			box-shadow: 0 0 10px 10px rgba(66, 4, 0, 0.6);
