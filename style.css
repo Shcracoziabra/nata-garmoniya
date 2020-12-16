@@ -95,8 +95,8 @@ header {
 	.menu-toggle:hover {
 		color: white;
 		text-shadow: 0 0 10px #ff4a4a,
-					 0 0 30px #ff4a4a,
-					 0 0 50px #ff4a4a;
+			     0 0 30px #ff4a4a,
+			     0 0 50px #ff4a4a;
 
 	}
 
@@ -188,6 +188,13 @@ header {
 
 	@keyframes pulse {
 		
+<<<<<<< HEAD
+=======
+		20% {
+			box-shadow: 0 0 10px  10px rgba(255, 255, 255, 0.6);
+		}
+
+>>>>>>> c68432b2298521c9a09e0f79b6ea435164e0172f
 		80% {
 			box-shadow: 0 0 10px 10px rgba(66, 4, 0, 0.6);
 		}
